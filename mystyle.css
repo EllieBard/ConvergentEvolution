@@ -1,0 +1,48 @@
+@font-face {
+    font-family: soriaFont;
+    src: url(soria-font-webfont.woff);
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: soriaFont;
+    text-align: center;
+}
+
+h3{
+    margin-bottom: -1%;
+}
+
+.cited{
+    margin-left: 2em;
+    text-indent: -2em;
+}
+
+a[name = "Cited"]{
+    vertical-align: super;
+}
+
+.info{
+    border-color: #BABD8D;
+    background-color: #BABD8D;
+    border-radius: 3vw;
+    border-width: 3%;
+    border-style: solid;
+    margin: 1%;
+    padding: 1%;
+}
+
+#nextButtonD, #citationLink{
+    display: block;
+    text-align: center;
+}
+
+#nxtBut{
+    display:block;
+    margin:auto;
+}
