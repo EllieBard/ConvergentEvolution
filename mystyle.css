@@ -4,8 +4,7 @@
 }
 
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
     box-sizing: border-box;
 }
 
@@ -14,8 +13,8 @@ h1{
     text-align: center;
 }
 
-h3{
-    margin-bottom: -1%;
+p{
+    font-size: 1.1em;
 }
 
 .cited{
@@ -23,26 +22,88 @@ h3{
     text-indent: -2em;
 }
 
-a[name = "Cited"]{
-    vertical-align: super;
+div{
+    border-radius: 3vw;
+    border-width: 3%;
+    margin: 1%;
+    padding: 2%;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    border-width: 0%;
+    gap:0%;
+}
+
+.flexbox, #Div2{
+    margin: 0%;
+    padding: 0%;
+}
+
+#Div2, #Div3{
+    margin-bottom:2%;
+}
+
+#Div4{
+    border-color: #ccb93c;
+    background-color: #ccb93c;
+}
+
+img{
+    width:100%;
+    height:auto;
 }
 
 .info{
     border-color: #BABD8D;
     background-color: #BABD8D;
-    border-radius: 3vw;
-    border-width: 3%;
     border-style: solid;
-    margin: 1%;
-    padding: 1%;
 }
 
-#nextButtonD, #citationLink{
-    display: block;
-    text-align: center;
+#ex1{
+    border-style:solid;
+    border-color:#D08AC5;
+    background-color: #D08AC5;
+}
+
+#ex2{
+    border-style:solid;
+    border-color:#BABD8D;
+    background-color:#BABD8D;
+}
+
+#ex3{
+    border-style:solid;
+    border-color:#6fa2e9;
+    background-color:#6fa2e9;
+}
+
+#funFact{
+    border-style:double;
+    border-width: 1em;
+    background-color: #ccb93c;
+    border-color:#ffffff;
+}
+
+#proFlex{
+    align-items:flex-start;
+}
+
+#prototaxPNG{
+    width: 20%;
+    height:auto;
 }
 
 #nxtBut{
     display:block;
     margin:auto;
+    font-size: 1em;
+}
+
+#nextButtonD, #citationLink{
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    padding:0%
 }
