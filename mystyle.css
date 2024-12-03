@@ -55,6 +55,11 @@ img{
     height:auto;
 }
 
+#ancIMG{
+    max-height:20em;
+    width:auto;
+}
+
 .info{
     border-color: #BABD8D;
     background-color: #BABD8D;
