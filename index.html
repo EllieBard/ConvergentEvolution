@@ -21,42 +21,47 @@
         </p>
     </div>
 
-    <div id = "Div2" class = "info">
-        <h3>Examples</h3>
-        <p>One well known example of convergent evolution is the development of flight. 
-            Insects, birds, and bats belong to completely different taxonomic groups, and 
-            they all independently developed flight at different times (Cao, 2020). 
-            Because of this, their wing structure differs quite a bit (see Fig. 1) (Cao, 2020). 
-            Flight is advantageous for organisms which eat flying insects, such as birds, 
-            bats, and dragonflies (Cao, 2020). It is also highly taxing, however, as a lot 
-            of energy is required to move wings (Cao, 2020). Therefore, the development of 
-            flying organisms has been noted to correlate with eras when oxygen levels on Earth 
-            were higher (Cao, 2020). 
-        </p>
-        <img src = "wings.PNG" alt = "Drawing of bat, bird, and butterfly wings" width = 70%>
-
-        <p>Another example of convergent evolution is a phenomenon called carcinization, 
-            in which several different crustaceans have evolved to take on a crab-like form. 
-            Carcinization is also an example of recurrent evolution because certain lineages 
-            have lost and regained the crab-like form over time (Keiler, 2017). The original 
-            species is often lobster-shaped, with a cylindrical body and long tail (Keiler, 2017). 
-            A flatter, rounder shape, as well as a small tail, allows crabs to move around more 
-            quickly and hide from predators in small crevices (see Fig.2) (Keiler, 2017). 
-            These evolutionary advantages have led this trait to appear many times. 
-        </p>
-        <label></label>
-        <img src = "crab.PNG" alt = "Drawing of lobster and crab" width = 50%>
-        
-        <p>Convergent evolution has appeared many times in plant species as well. 
-            For instance, human agricultural development has historically been the cause of 
-            some plants’ convergence. Human populations across the world preferred larger seeds 
-            in grain crops, independently selecting for this trait while planting and breeding crops 
-            (Fuller et al., 2014). The result mimics the effects of other evolutionary pressures - 
-            crops which better fit human preferences have survived, and especially with the 
-            introduction of modern technologies in the industrial revolution, have come to 
-            dominate certain habitats (Ramankutty and Foley, 1999). 
-        </p>
-
+    <div id = "Div2">
+        <div class = "flexbox">
+            <div id = "ex1" class = "examples">
+                <p>One well known example of convergent evolution is the development of flight. 
+                Insects, birds, and bats belong to completely different taxonomic groups, and 
+                they all independently developed flight at different times (Cao, 2020). 
+                Because of this, their wing structure differs quite a bit (see Fig. 1) (Cao, 2020). 
+                Flight is advantageous for organisms which eat flying insects, such as birds, 
+                bats, and dragonflies (Cao, 2020). It is also highly taxing, however, as a lot 
+                of energy is required to move wings (Cao, 2020). Therefore, the development of 
+                flying organisms has been noted to correlate with eras when oxygen levels on Earth 
+                were higher (Cao, 2020). 
+                </p>
+                <label for = "wingsIMG">Figure 1. Bat, bird, and butterfly wind structures (left to right).</label>
+                <img id = "wingsIMG" src = "wings.PNG" alt = "Drawing of bat, bird, and butterfly wings">
+            </div>
+            <div id = "ex2" class = "examples">
+                <p>Another example of convergent evolution is a phenomenon called carcinization, 
+                    in which several different crustaceans have evolved to take on a crab-like form. 
+                    Carcinization is also an example of recurrent evolution because certain lineages 
+                    have lost and regained the crab-like form over time (Keiler, 2017). The original 
+                    species is often lobster-shaped, with a cylindrical body and long tail (Keiler, 2017). 
+                    A flatter, rounder shape, as well as a small tail, allows crabs to move around more 
+                    quickly and hide from predators in small crevices (see Fig.2) (Keiler, 2017). 
+                    These evolutionary advantages have led this trait to appear many times. 
+                </p>
+                <label for = "wingsIMG">Figure 2. The long tail of the lobster-shaped body plan makes it more difficult to hide from predators, while crabs can hide in small crevaces.</label>
+                <img id = "crabIMG" src = "crab.PNG" alt = "Drawing of lobster and crab">
+            </div>
+        </div>
+        <div id = "ex3" class = "examples">
+            <p>Convergent evolution has appeared many times in plant species as well. 
+                For instance, human agricultural development has historically been the cause of 
+                some plants’ convergence. Human populations across the world preferred larger seeds 
+                in grain crops, independently selecting for this trait while planting and breeding crops 
+                (Fuller et al., 2014). The result mimics the effects of other evolutionary pressures - 
+                crops which better fit human preferences have survived, and especially with the 
+                introduction of modern technologies in the industrial revolution, have come to 
+                dominate certain habitats (Ramankutty and Foley, 1999). 
+            </p>
+        </div>
     </div>
 
     <div id="Div3" class="info">
@@ -65,9 +70,15 @@
             While there are many definitions for what can be considered a tree, most definitions include woodiness and secondary growth. Woodiness is achieved through the growth of a secondary cell wall, which provides additional structural support for the plant (Lyczakowski, 2024). This trait first evolved around 430 million years ago, and was instrumental in allowing plants to flourish on land (Lyczakowski, 2024). Secondary growth is the ability of a plant and/or its roots to grow in thickness or diameter (Ragni, 2018).             
         </p>
 
-        <p>The species first mistakenly conjectured to have a tree-like appearance was the prototaxite. Initially believed to be a 20-some foot tall conifer, the prototaxite was actually a giant fungus which lived around 470 million years ago, long before the actual evolution of trees (Vajda, 2023). Recent research has shown that prototaxites likely laid on their sides, however, instead of standing straight up (Vajda, 2023). Their enormous size would have allowed them to suck up nutrients over a large span of land, while height was unlikely to have benefited them in any way (Vajda, 2023). 
+        <div id = "funFact">
+            <h3>Fun Fact!</h3>
+            <div class = "flexbox" id = "proFlex">
+                <img id = "prototaxPNG" src = "prototaxites.png" alt = "Drawing of theorized appearance prototaxites" width = 20%>
+            <p>The species first mistakenly conjectured to have a tree-like appearance was the prototaxite. Initially believed to be a 20-some foot tall conifer, the prototaxite was actually a giant fungus which lived around 470 million years ago, long before the actual evolution of trees (Vajda, 2023). Recent research has shown that prototaxites likely laid on their sides, however, instead of standing straight up (Vajda, 2023). Their enormous size would have allowed them to suck up nutrients over a large span of land, while height was unlikely to have benefited them in any way (Vajda, 2023). 
 
-        </p>
+            </p>
+            </div>
+        </div>
 
         <p>The two main groups of currently extant tree species are gymnosperms and angiosperms (Troitsky, 1991). Gymnosperms are generally believed to be older than angiosperms, with angiosperms estimated to have split from gymnosperms around 360 million years ago (Troitsky, 1991). Although scientists believe they likely evolved from a single tree-like ancestor, the fossil record has shown that many plant lineages have separately evolved tree-like features (Spicer, 2010). Several extinct ferns, including the Sphenophyllales, independently developed secondary growth (Spicer, 2010). There is also evidence of convergent evolution in the nanostructure of gymnosperm and angiosperm woody species (Lyczakowski, 2024). Certain woody gymnosperm species known as gnetophytes have evolved thinner microfibrils, making their woody structure more similar to angiosperms’ than their closer relatives’ (Lyczakowski, 2024).
 
@@ -76,7 +87,10 @@
         <p>
             More recent examples of convergence can be found in a phenomenon known as insular woodiness, in which herbaceous plants growing on completely separate islands have repeatedly been found to evolve into woody species over time (Hooft et al., 2021). There are over 170 known transitions from herbaceous to woody plant structures (Hooft et al., 2021). It is worth noting, however, that insular woodiness is an example of derived woodiness (Hooft et al., 2021). That is, the herbaceous plants that first landed on the islands likely evolved from woody plants, meaning they were ancestrally woody (Hooft et al., 2021). Facing evolutionary pressures on the islands, some portion of the ancestrally-woody herbaceous species re-developed woodiness (Hooft et al., 2021). It is theorized that certain types of plants, such as monocots, which are a type of non-woody angiosperms, may be unable to evolve into woodiness on islands (Zizka, 2022).
         </p>
-
+        
+        <label for = "ancIMG">Figure 3. Many insular woody species evolved from herbacious plants with woody ancestors.</label>
+        <img src = "ancestralW.png" alt = "Drawing of tree, then herb, then another woody species with arrows showing the transition">
+        
         <p>
             While one of the primary hypotheses for the advantages of woodiness on islands, an edge in competition with other plants, may have been applicable to the development of trees hundreds of millions of years ago, other theories are more closely related to conditions specific to islands (Lens, 2013). Tropical islands often have aseasonal climates, which means that plants growing there rarely experience frost days (Zizka, 2022). This aseasonal climate as well as drought conditions during the summer have been found to be positively correlated with high amounts of insular woody species (Zizka, 2022), likely because woody species are better at withstanding drought conditions than herbaceous species (Hooft et al., 2021). Distance from neighboring islands has also been found to be important, as it helps to decrease competition from existing woody species (Hooft et al., 2021). Islands with lower numbers of herbivores are more likely to have woody species as well, as plants can quickly diversify without the threat of being eaten (Zizka, 2022). This diverse array of environmental pressures has repeatedly led to the development of woodiness, creating one of the most striking examples of convergent evolution in Earth’s history. 
         </p>
@@ -95,13 +109,12 @@
 
     <div id = "nextButtonD">
         <label for = "nxtBut">Press the next button or space key to continue.</label>
-        <button value = "Next" id="nxtBut" type = "button">Next</button>
+        <button value = "Next" id="nxtBut" type = "button" autofocus>Next</button>
     </div>
 
     <div id="citationLink">
         <a href = "citations.html">Works Cited</a>
     </div>
-    
 
     <script>
         var divNum = 0;
@@ -123,7 +136,6 @@
                 showDiv(divNum);
             }
         });
-
         nxtBut.addEventListener("click", function(){
             nxtBut.blur();
             console.log("buttonClicked");
@@ -131,6 +143,7 @@
             showDiv(divNum);
         });
 
+        
         function showDiv(int){
             switch (int) {
             case 1:
