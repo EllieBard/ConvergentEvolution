@@ -14,12 +14,12 @@ h1{
 }
 
 p{
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 
 .cited{
-    margin-left: 2em;
-    text-indent: -2em;
+    margin-left: 2rem;
+    text-indent: -2rem;
 }
 
 div{
@@ -46,8 +46,8 @@ div{
 }
 
 #Div4{
-    border-color: #ccb93c;
-    background-color: #ccb93c;
+    border-color: #E0D36D;
+    background-color: #E0D36D;
 }
 
 img{
@@ -56,38 +56,46 @@ img{
 }
 
 #ancIMG{
-    max-height:20em;
+    max-height:20rem;
+    max-width:80%;
     width:auto;
 }
 
+#canary{
+    min-width:20rem;
+    border-color:#ffffff;
+    border-style:solid;
+    background-color: #ffffff;
+}
+
 .info{
-    border-color: #BABD8D;
-    background-color: #BABD8D;
+    border-color: #C8CBA4;
+    background-color: #C8CBA4;
     border-style: solid;
 }
 
 #ex1{
     border-style:solid;
-    border-color:#D08AC5;
-    background-color: #D08AC5;
+    border-color:#D699CD;
+    background-color: #D699CD;
 }
 
 #ex2{
     border-style:solid;
-    border-color:#BABD8D;
-    background-color:#BABD8D;
+    border-color:#E0D36D;
+    background-color:#E0D36D;
 }
 
 #ex3{
     border-style:solid;
-    border-color:#6fa2e9;
-    background-color:#6fa2e9;
+    border-color:#95B2DA;
+    background-color:#95B2DA;
 }
 
 #funFact{
     border-style:double;
-    border-width: 1em;
-    background-color: #ccb93c;
+    border-width: 1rem;
+    background-color: #E0D36D;
     border-color:#ffffff;
 }
 
@@ -96,19 +104,24 @@ img{
 }
 
 #prototaxPNG{
-    width: 20%;
+    width: 30%;
+    min-width:20rem;
     height:auto;
+}
+
+#canaryD{
+    gap: 4%;
 }
 
 #nxtBut{
     display:block;
     margin:auto;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 #nextButtonD, #citationLink{
     display: block;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     padding:0%
 }
