@@ -3,14 +3,21 @@
     src: url(soria-font-webfont.woff);
 }
 
+.fleur-de-leah-regular {
+    font-family: "Fleur De Leah", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
     box-sizing: border-box;
 }
 
 h1{
-    font-family: soriaFont;
+    font-family: 'Fleur de Leah';
     text-align: center;
+    font-size: 3rem;
 }
 
 p{
